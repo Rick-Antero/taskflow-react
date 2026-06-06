@@ -33,16 +33,16 @@ O objetivo do projeto é permitir a criação, edição, exclusão e visualizaç
 
 ##  Como executar o projeto
 
-1. Clonar o repositório
+1. Clonar o repositório -
 git clone https://github.com/Rick-Antero/taskflow-react.git
 
-2. Acessar pasta
+2. Acessar pasta -
 cd taskflow-react
 
-3. Instalar dependências
+3. Instalar dependências -
 npm install
 
-4.Executar o projeto
+4.Executar o projeto -
 npm run dev
 
 
