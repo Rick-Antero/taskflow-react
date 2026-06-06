@@ -1,76 +1,66 @@
 1.Introdução
 
-O projeto TaskFlow é uma aplicação web desenvolvida em React com o objetivo de gerenciar tarefas de forma simples e intuitiva. A aplicação permite criar, visualizar, editar e excluir tarefas, além de organizar o fluxo de trabalho por status.
-
-O sistema foi desenvolvido como atividade acadêmica para praticar conceitos de desenvolvimento front-end moderno, incluindo componentização, gerenciamento de estado, roteamento e persistência de dados.
+O projeto TaskFlow é uma aplicação web desenvolvida em React com o objetivo de gerenciar tarefas de 
+forma simples e intuitiva. A aplicação permite criar, visualizar, editar e excluir tarefas, além de 
+organizar o fluxo de trabalho por status. O sistema foi desenvolvido como atividade acadêmica para praticar conceitos de desenvolvimento front-end
+moderno, incluindo componentização, gerenciamento de estado, roteamento e persistência de dados.
 
 2. Objetivo do Projeto
 
-O principal objetivo do TaskFlow é oferecer uma ferramenta simples de gerenciamento de tarefas, simulando um sistema real de produtividade, permitindo:
+O principal objetivo do TaskFlow é oferecer uma ferramenta simples de gerenciamento de tarefas, 
+simulando um sistema real de produtividade, permitindo:
 
-Organização de atividades
-Controle de status das tarefas
-Simulação de fluxo de trabalho
-Persistência de dados no navegador
+- Organização de atividades
+- Controle de status das tarefas
+- Simulação de fluxo de trabalho
+- Persistência de dados no navegador
+
 3. Tecnologias Utilizadas
-React.js
-React Router DOM
-JavaScript (ES6+)
-Vite
-CSS3
-LocalStorage (persistência de dados)
+- React.js
+- React Router DOM
+- JavaScript (ES6+)
+- Vite
+- CSS3
+- LocalStorage (persistência de dados)
+
 4. Estrutura de Dados
-
 As tarefas são armazenadas em um array de objetos com a seguinte estrutura:
-
 {
   id: 123456789,
   titulo: "Estudar React",
   descricao: "Revisar componentes e hooks",
   status: "Pendente"
 }
+
 5. Funcionalidades do Sistema
-Criar novas tarefas
-Listar todas as tarefas
-Editar tarefas existentes
-Excluir tarefas
-Visualizar detalhes da tarefa
-Classificação por status:
-Pendente
-Em andamento
-Concluída
-Persistência com LocalStorage
-Interface responsiva
-Tema claro e escuro
-Dashboard com resumo
+- Criar novas tarefas
+- Listar todas as tarefas
+- Editar tarefas existentes
+- Excluir tarefas
+- Visualizar detalhes da tarefa
+- Classificação por status:
+  -Pendente
+  -Em andamento
+  -Concluída
+- Persistência com LocalStorage
+- Interface responsiva
+- Tema claro e escuro
+- Dashboard com resumo
+
 6. Páginas do Sistema
-Home
+Home: Página inicial com apresentação do sistema.
 
-Página inicial com apresentação do sistema.
+Dashboard: Exibe resumo das tarefas e status.
 
-Dashboard
+Tasks: Lista todas as tarefas cadastradas.
 
-Exibe resumo das tarefas e status.
+Create Task: Formulário para criação de novas tarefas.
 
-Tasks
+Edit Task: Permite editar tarefas existentes.
 
-Lista todas as tarefas cadastradas.
+Task Details: Exibe informações completas de uma tarefa.
 
-Create Task
-
-Formulário para criação de novas tarefas.
-
-Edit Task
-
-Permite editar tarefas existentes.
-
-Task Details
-
-Exibe informações completas de uma tarefa.
-
-About
-
-Página com informações do projeto e desenvolvedores.
+About: Página com informações do projeto e desenvolvedores.
 
 7. Fluxo da Aplicação
 Usuário
@@ -84,6 +74,8 @@ Armazena no LocalStorage
 Lista / Edita / Remove tarefas
   ↓
 Atualiza interface automaticamente
+
+
 8. Diagrama da Arquitetura (simplificado)
 App.jsx
  ├── Home
@@ -95,16 +87,19 @@ App.jsx
  ├── CreateTask
  ├── About
  └── Navbar / Layout
+
+
 9. Persistência de Dados
+O sistema utiliza o LocalStorage do navegador, permitindo que as tarefas permaneçam salvas mesmo após
+recarregar a página.
 
-O sistema utiliza o LocalStorage do navegador, permitindo que as tarefas permaneçam salvas mesmo após recarregar a página.
+- Chave utilizada: tasks
+- Formato: JSON
 
-Chave utilizada: tasks
-Formato: JSON
+
 10. Deploy
 
 O projeto foi publicado na plataforma Vercel:
-
 https://taskflow-react-eight.vercel.app/
 
 11. Desenvolvedores
@@ -116,6 +111,7 @@ Matheus Souza
 
 12. Conclusão
 
-O desenvolvimento do TaskFlow permitiu a aplicação prática de conceitos fundamentais do React, como componentização, gerenciamento de estado, roteamento e integração com armazenamento local.
-
-O projeto simula um sistema real de gerenciamento de tarefas, sendo uma base sólida para evoluções futuras como autenticação, banco de dados e backend.
+O desenvolvimento do TaskFlow permitiu a aplicação prática de conceitos fundamentais do React, como 
+componentização, gerenciamento de estado, roteamento e integração com armazenamento local.
+O projeto simula um sistema real de gerenciamento de tarefas, sendo uma base sólida para evoluções 
+futuras como autenticação, banco de dados e backend.
