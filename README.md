@@ -1,16 +1,58 @@
-# React + Vite
+# TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow é um sistema de gerenciamento de tarefas desenvolvido com React.  
+O objetivo do projeto é permitir a criação, edição, exclusão e visualização de tarefas, com controle de status e persistência de dados no navegador.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- Criar novas tarefas
+- Editar tarefas existentes
+- Excluir tarefas
+- Visualizar detalhes da tarefa
+- Controle de status:
+  - Pendente
+  - Em andamento
+  - Concluída
+- Dashboard com resumo das tarefas
+- Armazenamento local (LocalStorage)
+- Interface responsiva
+- Tema claro e escuro
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- JavaScript (ES6+)
+- CSS3
+- Vite
+- LocalStorage
+
+
+
+##  Como executar o projeto
+
+1. Clonar o repositório
+git clone https://github.com/Rick-Antero/taskflow-react.git
+
+2. Acessar pasta
+cd taskflow-react
+
+3. Instalar dependências
+npm install
+
+4.Executar o projeto
+npm run dev
+
+
+## Desenvolvedores
+
+- Luiz Ricardo
+- Alice Ludovico
+- João Pedro Tenório
+- Matheus Souza
+
+## Deploy
+
+https://taskflow-react-eight.vercel.app/
