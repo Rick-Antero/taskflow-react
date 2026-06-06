@@ -51,7 +51,7 @@ npm run dev
 - Luiz Ricardo
 - Alice Ludovico
 - João Pedro Tenório
-- Matheus Souza
+- Matheus de Souza
 
 ## Deploy
 
